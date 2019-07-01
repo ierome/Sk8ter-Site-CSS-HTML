@@ -1,0 +1,411 @@
+html {
+    /* Location of the image */
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(assets/bg.jpg);
+    background-position-x: -206px;
+    box-sizing: border-box;
+    font-family: "Geneva";
+}
+
+*,
+* ::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+}
+
+header {
+    width: 1000px;
+}
+
+main {
+    width: 1000px;
+}
+
+ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.socialNav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.boom {
+    position: relative;
+    top: 2px;
+    right: 45px;
+}
+.contentWrapper h1 {
+    font-size:25px;
+    font-weight: 700;
+    color: rgb(54,55,49)
+}
+.contentWrapper h2 {
+    font-size: 15px;
+    color: rgb(119, 119, 118)
+}
+.contentWrapper h3 {
+    font-size: 13px;
+}
+.read {
+    color: rgb(164, 40, 46);
+    text-align: center;
+    font-weight: bold;
+}
+.readun {
+    color: rgb(164, 40, 46);
+    position:relative;
+    top: 34px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.socialNav>li>i {
+    font-size: 20px;
+}
+
+.customPadding {
+    padding: 2px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.navbar>li {
+    width: 230px;
+    background-image: linear-gradient(rgb(164, 40, 46), rgb(178, 43, 48));
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 2px -2px gray;
+    text-transform: uppercase;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.slider {
+    width: 995px;
+    border: 5px solid white;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    background-image: url("assets/top-image.png");
+    background-position-x: -200px, center;
+    background-position-y: -140px, center;
+}
+
+.topImage {
+    position: relative;
+    width: 995px;
+    height: 340px;
+    opacity: 0.3;
+    left: 168px;
+}
+
+.sideImage {
+    height: 200px;
+    position: relative;
+    top: 80px;
+    left: -800px;
+}
+
+.social {
+    color: rgb(211,207,204);
+    margin-bottom: -30px;
+}
+
+.radioSet {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: rgb(164, 40, 46);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+.contentWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentBox1,
+.contentBox2,
+.contentBox3 {
+    background-color: white;
+    width: 320px;
+    text-align: left;
+    padding: 20px;
+}
+
+.weirdBoxes {
+    width: 1000px;
+    height: 420px;
+    margin-top: 20px;
+}
+
+.box1 {
+    float: left;
+    width: 328px;
+    height: 205px;
+    background-color: black;
+    margin-right: 10px;
+    border: 5px solid white;
+    background-image: url("assets/sk8er-4.png");
+    background-position-x: -132px;
+}
+
+.box2 {
+    float: left;
+    width: 323px;
+    height: 205px;
+    background-color: black;
+    border: 5px solid white;
+    background-image: url("assets/sk8er-3.png");
+}
+
+.box3 {
+    background-color: black;
+    float: left;
+    width: 661px;
+    height: 210px;
+    margin-top: 10px;
+    border: 5px solid white;
+    background-image: url("assets/sk8er-1.png");
+    background-position-y: -100px;
+}
+
+.box4 {
+    background-color: black;
+    float: left;
+    width: 328px;
+    height: 426px;
+    margin-top: -206px;
+    margin-left: 11px;
+    border: 5px solid white;
+    background-image: url("assets/sk8er-2.png");
+    background-position-x: 422px;
+}
+
+.weirdNames {
+    font-size: 45px;
+    display: flex;
+    justify-content: left;
+    width: 2000px;
+    color: white;
+    font-weight: 700;
+    font-family: "Futura";
+    text-align: center;
+}
+
+.text1 {
+    position: relative;
+    bottom: 375px;
+    left: 25px;
+}
+
+.text2 {
+    position: relative;
+    left: 123px;
+    bottom: 375px;
+}
+
+.text3 {
+    position: relative;
+    bottom: 133px;
+    right: 367px;
+}
+
+.text4 {
+    position: relative;
+    right: 217px;
+    bottom: 280px;
+}
+
+.fuckingSkateboards {
+    display: inline-flex;
+    height: 280px;
+    width: 1000px;
+    background-color: white;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+.contactWrapper {
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 80px;
+}
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    margin-left: 20px;
+}
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.subButtons{
+    display: inline-flex;
+    font-size: 20px;
+    margin-top:-20px;
+    margin-left: -13px;
+}
+.h3Contact {
+    margin-bottom:-5px;
+}
+.rightSide>input {
+    height: 30px;
+    width: 300px;
+    margin-bottom: 20px;
+    box-shadow: inset 0 0 3px #000000;
+    text-indent: 5px;
+}
+.messageContact {
+    text-indent: 5px;
+    box-shadow: inset 0 0 3px #000000;
+    height: 100px;
+    width: 300px;
+}
+::placeholder {
+    margin-top: 5px;
+}
+.submitButton {
+    background-color: rgb(176,42,49);
+    text-align: center;
+    width: 170px;
+    color: white;
+    position: relative;
+    margin-top: 10px;
+    left: 131px;
+    height: 35px;
+
+}
+.arrowShit>img {
+    position: relative;
+    width: 250px;
+    height: 100px;
+    left: -260px;
+    bottom: 350px;
+}
+.arrowShit {
+    margin-bottom: -200px;
+    margin-top: -200px;
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-grow: 1;
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar>li {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+}
+@media screen and (max-width: 460px) {
+    .body {
+        width: 100%;
+    }
+    .slider {
+        display: none;
+    }
+    .radioSet {
+        display: none;
+    }
+    .contentWrapper {
+        flex-direction: column;
+    }
+    .contentBox1,
+.contentBox2,
+.contentBox3 {
+width: 100%;
+margin-bottom: 15px;
+}
+.readun {
+    top: 10px;
+}
+.contentWrapper h1 {
+    font-size:50px;
+    font-weight: 700;
+    color: rgb(54,55,49)
+}
+.contentWrapper h2 {
+    font-size: 30px;
+    color: rgb(119, 119, 118)
+}
+.contentWrapper h3 {
+    font-size: 26px;
+}
+.contactWrapper {
+    flex-direction: column;
+    width: 100%;
+}
+.leftSide {
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    justify-content: flex-end;
+}
+.rightSide {
+    width: 100%;
+    font-size: 25px;
+}
+.messageContact {
+    width:100%;
+}
+main {
+    width: 100%;
+}
+}
